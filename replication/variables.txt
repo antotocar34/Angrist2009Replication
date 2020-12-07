@@ -1,0 +1,37 @@
+This is a text file highlighting the variable we care about for each table.
+Basically a reordering of the readme.txt file.
+
+TABLE 1
+Treatment status variables
+       max   min
+sfp     0     1  Offered sfp
+sfpany  0     1  Offered SFP or SFSP
+sfsp    0     1  Offered sfsp
+ssp     0     1  Offered ssp
+control 0     1  Control group
+
+Administrative Variables
+            max   min
+numcourses~1 0     6  Courses enrolled as of fall 2005
+noshow       0     1  No show
+compsurv     0     1  Completed survey
+
+Student background variables
+        max   min
+female   0     1  Female dummy
+gpa0    68  87.3  High School GPA
+age     17    23  Age
+english  0     1  Mother tongue is English
+
+Survey Response Variables
+         max   min
+hcom      0     1  Lives at home
+chooseUTM 0     1  At 1st choice school
+work1     0     1  Plans to work while in school
+mom1      0     1  Mother a HS graduate
+mom2      0     1  Mother a college graduate
+dad1      0     1  Father a HS graduate
+dad2      0     1  Father a college graduate
+lastmin   1     5  how often do you leave studying until the last minute for tests and exams?
+graddeg   0     1  Wants more than a BA
+finish4   0     1  Intends to finish in 4 years
